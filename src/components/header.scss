@@ -1,0 +1,30 @@
+.header {
+  &__container {
+    padding: 1.6rem;
+    background-color: rgb(40, 39, 39);
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__item {
+    font-size: 2rem;
+    color: rgb(135, 165, 192);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+
+    a:link,
+    a:active,
+    a:focus {
+      text-decoration: none;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
