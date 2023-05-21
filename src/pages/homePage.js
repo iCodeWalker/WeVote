@@ -1,9 +1,12 @@
 import React from "react";
+import HomeSection from "../sections/homeSection";
+
+import "./homePage.scss";
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className="homepage__container">
+      <HomeSection />
     </div>
   );
 };

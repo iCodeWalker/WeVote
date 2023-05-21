@@ -1,0 +1,32 @@
+.homesection__container {
+  padding-left: 4.8rem;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  &--heading {
+    text-transform: uppercase;
+    padding-top: 4.8rem;
+    padding-right: 4.8rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.homesection__button {
+}
+
+.paragraph__container {
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  font-weight: 500;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

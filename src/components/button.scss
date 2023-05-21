@@ -1,0 +1,28 @@
+.button {
+  &__container {
+    padding: 1rem;
+  }
+
+  &__title {
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0.3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: rgb(49, 196, 141);
+    text-align: center;
+    border-bottom: 2px solid rgb(49, 196, 141);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(49, 196, 141);
+      color: azure;
+      border-bottom: 2px solid azure;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      font-weight: 700;
+    }
+  }
+}
