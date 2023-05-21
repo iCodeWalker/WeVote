@@ -1,0 +1,21 @@
+.detailcard {
+  &__container {
+    width: 30rem;
+    height: auto;
+    padding: 1.6rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgba(49, 196, 142, 0.471);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(49, 196, 142, 0.245);
+    cursor: pointer;
+  }
+
+  &__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(49, 196, 141);
+  }
+}

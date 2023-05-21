@@ -1,4 +1,5 @@
 import "./App.css";
+import DetailCard from "./components/details/detailCard";
 import Header from "./components/header";
 import MapComponent from "./components/mapComponent";
 import HomePage from "./pages/homePage";
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Header />
       <HomePage />
+      <DetailCard />
     </div>
   );
 }
