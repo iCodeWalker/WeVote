@@ -8,9 +8,9 @@ const DetailCard = () => {
   return (
     <div className="detailcard__container">
       <div className="detailcard__img">
-        <img src={mpMap} alt="state image" height="150px" width="200px" />
+        <img src={mpMap} alt="state__mp" height="150px" width="200px" />
       </div>
-      <div className="detailcard__title">Madhya Pradesh</div>
+      <div className="detailcard__title">Madhya Pradesh(M.P.)</div>
     </div>
   );
 };
