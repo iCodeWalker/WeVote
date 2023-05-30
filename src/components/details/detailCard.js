@@ -1,6 +1,7 @@
 import React from "react";
 
 import mpMap from "../../assets/images/map-madhya-pradesh.jpg";
+import mpMap2 from "../../assets/images/map-madhya-pradesh-2.avif";
 
 import "./detailCard.scss";
 
