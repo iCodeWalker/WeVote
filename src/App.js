@@ -3,6 +3,7 @@ import DetailCard from "./components/details/detailCard";
 import Header from "./components/header";
 import MapComponent from "./components/mapComponent";
 import { addItem, removeItem } from "./data/redux/actions/action";
+import CheckBoxWithSelectAll from "./pages/checkboxPage";
 import HomePage from "./pages/homePage";
 
 import { useDispatch, useSelector } from "react-redux";
@@ -25,6 +26,7 @@ function App() {
       <Header />
       <HomePage />
       <DetailCard />
+      <CheckBoxWithSelectAll />
       {data?.map((item, index) => {
         return <p></p>;
       })}
