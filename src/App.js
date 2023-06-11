@@ -1,5 +1,6 @@
 import "./App.css";
 import DetailCard from "./components/details/detailCard";
+import DetailList from "./components/details/detailList";
 import Header from "./components/header";
 import MapComponent from "./components/mapComponent";
 import { addItem, removeItem } from "./data/redux/actions/action";
@@ -25,7 +26,7 @@ function App() {
     <div>
       <Header />
       <HomePage />
-      <DetailCard />
+      <DetailList />
       <CheckBoxWithSelectAll />
       {data?.map((item, index) => {
         return <p></p>;
