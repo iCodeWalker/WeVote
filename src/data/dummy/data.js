@@ -1,12 +1,17 @@
+import mapMp from "../../assets/images/map-madhya-pradesh.jpg";
+import mapAndhraPradesh from "../../assets/images/map-andhra-pradesh.jpeg";
+
 export const initialState = {
   states: [
     {
       value: "AN",
       label: "Andaman and Nicobar Islands",
+      image: "",
     },
     {
       value: "AP",
       label: "Andhra Pradesh",
+      image: mapAndhraPradesh,
     },
     {
       value: "AR",
@@ -79,6 +84,7 @@ export const initialState = {
     {
       value: "MP",
       label: "Madhya Pradesh",
+      image: mapMp,
     },
     {
       value: "MH",

@@ -1,5 +1,6 @@
 import React from "react";
 import { initialState } from "../../data/dummy/data";
+import mpMap from "../../assets/images/map-madhya-pradesh.jpg";
 import DetailCard from "./detailCard";
 
 const DetailList = () => {
@@ -14,7 +15,13 @@ const DetailList = () => {
       }}
     >
       {initialState.states.map((item, index) => {
-        return <DetailCard stateName={item.label} stateCode={item.value} />;
+        return (
+          <DetailCard
+            stateName={item.label}
+            stateCode={item.value}
+            stateImage={item.image}
+          />
+        );
       })}
     </div>
   );

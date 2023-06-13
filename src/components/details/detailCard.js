@@ -9,10 +9,10 @@ const DetailCard = ({ stateName, stateCode, stateImage }) => {
   return (
     <div className="detailcard__container">
       <div className="detailcard__img">
-        <img src={mpMap} alt="state__mp" height="150px" width="200px" />
+        <img src={stateImage} alt="state__mp" height="150px" width="200px" />
       </div>
       <div className="detailcard__title">
-        {stateName}({stateCode})
+        {stateName} ({stateCode})
       </div>
     </div>
   );
