@@ -1,5 +1,22 @@
 import mapMp from "../../assets/images/map-madhya-pradesh.jpg";
 import mapAndhraPradesh from "../../assets/images/map-andhra-pradesh.jpeg";
+import mapArunachalPradesh from "../../assets/images/map-arunachal-pradesh.jpg";
+import mapAssam from "../../assets/images/map-assam.jpg";
+import mapBihar from "../../assets/images/map-bihar.jpg";
+import mapChhattisgarh from "../../assets/images/map-chhattisgarh.jpg";
+import mapGoa from "../../assets/images/map-goa.jpg";
+import mapGujrat from "../../assets/images/map-gujarat.jpg";
+import mapHaryana from "../../assets/images/map-haryana.jpg";
+import mapHimanchalPradesh from "../../assets/images/map-himanchal-pradesh.jpg";
+import mapJharkhand from "../../assets/images/map-jharkhand.jpg";
+import mapKarnataka from "../../assets/images/map-karnataka.jpg";
+import mapKerela from "../../assets/images/map-kerala.jpg";
+import mapMaharashtra from "../../assets/images/map-maharashtra.jpg";
+import mapManipur from "../../assets/images/map-manipur.jpg";
+import mapMeghalaya from "../../assets/images/map-meghalaya.jpg";
+import mapMizoram from "../../assets/images/map-mizoram.jpg";
+import mapNagaland from "../../assets/images/map-nagaland.jpg";
+import mapOdisha from "../../assets/images/map-orissa.jpg";
 
 export const initialState = {
   states: [
@@ -16,14 +33,17 @@ export const initialState = {
     {
       value: "AR",
       label: "Arunachal Pradesh",
+      image: mapArunachalPradesh,
     },
     {
       value: "AS",
       label: "Assam",
+      image: mapAssam,
     },
     {
       value: "BR",
       label: "Bihar",
+      image: mapBihar,
     },
     {
       value: "CG",
@@ -32,6 +52,7 @@ export const initialState = {
     {
       value: "CH",
       label: "Chhattisgarh",
+      image: mapChhattisgarh,
     },
     {
       value: "DH",
@@ -48,18 +69,22 @@ export const initialState = {
     {
       value: "GA",
       label: "Goa",
+      image: mapGoa,
     },
     {
       value: "GJ",
       label: "Gujarat",
+      image: mapGujrat,
     },
     {
       value: "HR",
       label: "Haryana",
+      image: mapHaryana,
     },
     {
       value: "HP",
       label: "Himachal Pradesh",
+      image: mapHimanchalPradesh,
     },
     {
       value: "JK",
@@ -68,14 +93,17 @@ export const initialState = {
     {
       value: "JH",
       label: "Jharkhand",
+      image: mapJharkhand,
     },
     {
       value: "KA",
       label: "Karnataka",
+      image: mapKarnataka,
     },
     {
       value: "KL",
       label: "Kerala",
+      image: mapKerela,
     },
     {
       value: "LD",
@@ -89,26 +117,32 @@ export const initialState = {
     {
       value: "MH",
       label: "Maharashtra",
+      image: mapMaharashtra,
     },
     {
       value: "MN",
       label: "Manipur",
+      image: mapManipur,
     },
     {
       value: "ML",
       label: "Meghalaya",
+      image: mapMeghalaya,
     },
     {
       value: "MZ",
       label: "Mizoram",
+      image: mapMizoram,
     },
     {
       value: "NL",
       label: "Nagaland",
+      image: mapNagaland,
     },
     {
       value: "OR",
       label: "Odisha",
+      image: mapOdisha,
     },
     {
       value: "PY",
