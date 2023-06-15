@@ -17,6 +17,15 @@ import mapMeghalaya from "../../assets/images/map-meghalaya.jpg";
 import mapMizoram from "../../assets/images/map-mizoram.jpg";
 import mapNagaland from "../../assets/images/map-nagaland.jpg";
 import mapOdisha from "../../assets/images/map-orissa.jpg";
+import mapPunjab from "../../assets/images/map-punjab.jpg";
+import mapRajasthan from "../../assets/images/map-rajasthan.jpg";
+import mapSikkim from "../../assets/images/map-sikkim.jpg";
+import mapTamilNadu from "../../assets/images/map-tamil-nadu.jpg";
+import mapTelangana from "../../assets/images/map-tamil-nadu.jpg";
+import mapTripura from "../../assets/images/map-tripura.jpg";
+import mapUttarakhand from "../../assets/images/map-uttarakhand.jpg";
+import mapUttarPradesh from "../../assets/images/map-uttar-pradesh.jpg";
+import mapWestBengal from "../../assets/images/map-west-bengal.jpg";
 
 export const initialState = {
   states: [
@@ -151,38 +160,47 @@ export const initialState = {
     {
       value: "PB",
       label: "Punjab",
+      image: mapPunjab,
     },
     {
       value: "RJ",
       label: "Rajasthan",
+      image: mapRajasthan,
     },
     {
       value: "SK",
       label: "Sikkim",
+      image: mapSikkim,
     },
     {
       value: "TN",
       label: "Tamil Nadu",
+      image: mapTamilNadu,
     },
     {
       value: "TS",
       label: "Telangana",
+      image: mapTelangana,
     },
     {
       value: "TR",
       label: "Tripura",
+      image: mapTripura,
     },
     {
       value: "UK",
       label: "Uttarakhand",
+      image: mapUttarakhand,
     },
     {
       value: "UP",
       label: "Uttar Pradesh",
+      image: mapUttarPradesh,
     },
     {
       value: "WB",
       label: "West Bengal",
+      image: mapWestBengal,
     },
   ],
 };
