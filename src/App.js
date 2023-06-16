@@ -6,6 +6,7 @@ import MapComponent from "./components/mapComponent";
 import { addItem, removeItem } from "./data/redux/actions/action";
 import CheckBoxWithSelectAll from "./pages/checkboxPage";
 import HomePage from "./pages/homePage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { useDispatch, useSelector } from "react-redux";
 
@@ -24,18 +25,10 @@ function App() {
   console.log(data);
   return (
     <div>
-      <Header />
-      <HomePage />
-      <DetailList />
-      <CheckBoxWithSelectAll />
-      {data?.map((item, index) => {
-        return <p></p>;
-      })}
-
-      <button onClick={() => dispatch(addItem({ id: 2, name: "second" }))}>
-        Click to add
-      </button>
-      <button onClick={() => dispatch(removeItem(0))}>Click to delete</button>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="details" element={<DetailList />} />
+      </Routes>
     </div>
   );
 }
