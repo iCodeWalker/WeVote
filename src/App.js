@@ -25,10 +25,7 @@ function App() {
   console.log(data);
   return (
     <div>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="details" element={<DetailList />} />
-      </Routes>
+      <HomePage />
     </div>
   );
 }
