@@ -9,6 +9,7 @@ import HomePage from "./pages/homePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { useDispatch, useSelector } from "react-redux";
+import HomeSection from "./sections/homeSection";
 
 function App() {
   const data = useSelector((state) => state.data);
@@ -25,7 +26,8 @@ function App() {
   console.log(data);
   return (
     <div>
-      <HomePage />
+      <Header />
+      <HomeSection />
     </div>
   );
 }
