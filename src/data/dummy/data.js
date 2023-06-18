@@ -30,11 +30,6 @@ import mapWestBengal from "../../assets/images/map-west-bengal.jpg";
 export const initialState = {
   states: [
     {
-      value: "AN",
-      label: "Andaman and Nicobar Islands",
-      image: "",
-    },
-    {
       value: "AP",
       label: "Andhra Pradesh",
       image: mapAndhraPradesh,
@@ -54,27 +49,13 @@ export const initialState = {
       label: "Bihar",
       image: mapBihar,
     },
-    {
-      value: "CG",
-      label: "Chandigarh",
-    },
+
     {
       value: "CH",
       label: "Chhattisgarh",
       image: mapChhattisgarh,
     },
-    {
-      value: "DH",
-      label: "Dadra and Nagar Haveli",
-    },
-    {
-      value: "DD",
-      label: "Daman and Diu",
-    },
-    {
-      value: "DL",
-      label: "Delhi",
-    },
+
     {
       value: "GA",
       label: "Goa",
@@ -95,10 +76,7 @@ export const initialState = {
       label: "Himachal Pradesh",
       image: mapHimanchalPradesh,
     },
-    {
-      value: "JK",
-      label: "Jammu and Kashmir",
-    },
+
     {
       value: "JH",
       label: "Jharkhand",
@@ -114,10 +92,7 @@ export const initialState = {
       label: "Kerala",
       image: mapKerela,
     },
-    {
-      value: "LD",
-      label: "Lakshadweep",
-    },
+
     {
       value: "MP",
       label: "Madhya Pradesh",
@@ -153,10 +128,7 @@ export const initialState = {
       label: "Odisha",
       image: mapOdisha,
     },
-    {
-      value: "PY",
-      label: "Puducherry",
-    },
+
     {
       value: "PB",
       label: "Punjab",
@@ -201,6 +173,46 @@ export const initialState = {
       value: "WB",
       label: "West Bengal",
       image: mapWestBengal,
+    },
+  ],
+
+  unionTerritories: [
+    {
+      value: "AN",
+      label: "Andaman and Nicobar Islands",
+      image: "",
+    },
+    {
+      value: "PY",
+      label: "Puducherry",
+    },
+    {
+      value: "LD",
+      label: "Lakshadweep",
+    },
+    {
+      value: "JK",
+      label: "Jammu and Kashmir",
+    },
+    {
+      value: "LA",
+      label: "Ladakh",
+    },
+    {
+      value: "DH",
+      label: "Dadra and Nagar Haveli",
+    },
+    {
+      value: "DD",
+      label: "Daman and Diu",
+    },
+    {
+      value: "DL",
+      label: "Delhi",
+    },
+    {
+      value: "CG",
+      label: "Chandigarh",
     },
   ],
 };

@@ -1,34 +1,36 @@
 import "./App.css";
-import DetailCard from "./components/details/detailCard";
+
 import DetailList from "./components/details/detailList";
 import Header from "./components/header";
-import MapComponent from "./components/mapComponent";
-import { addItem, removeItem } from "./data/redux/actions/action";
-import CheckBoxWithSelectAll from "./pages/checkboxPage";
-import HomePage from "./pages/homePage";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import { useDispatch, useSelector } from "react-redux";
+import HomePage from "./pages/homePage";
+
+import { useSelector } from "react-redux";
 import HomeSection from "./sections/homeSection";
 
 function App() {
   const data = useSelector((state) => state.data);
-  const dispatch = useDispatch();
-
-  const productData = {
-    id: "1",
-    name: "iPhone",
-    price: "84000",
-    date: "27/08/2022",
-    type: "mobile",
-  };
 
   console.log(data);
   return (
-    <div>
-      <Header />
-      <HomeSection />
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route
+            exact
+            path="/"
+            element={
+              <>
+                <Header />
+                <HomePage />
+              </>
+            }
+          ></Route>
+          <Route exact path="/details" element={<DetailList />}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

@@ -10,8 +10,6 @@ const HomePage = () => {
   return (
     <div className="homepage__container">
       <HomeSection />
-      <Header />
-      <HomePage />
       <DetailList />
       <CheckBoxWithSelectAll />
     </div>

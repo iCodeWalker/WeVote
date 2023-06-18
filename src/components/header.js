@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.scss";
 import logo from "../assets/images/wevote-logo-low.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -8,10 +9,10 @@ const Header = () => {
       <img src={logo} alt="logo" className="header__logo" />
       <nav className="header__wrapper">
         <div className="header__item">
-          <a href="/#"> Home</a>
+          <a href="/"> Home</a>
         </div>
         <div className="header__item">
-          <a href="/#"> Details</a>
+          <Link to="/details">Details</Link>
         </div>
         <div className="header__item">
           <a href="/#">You</a>

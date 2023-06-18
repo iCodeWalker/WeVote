@@ -1,0 +1,13 @@
+.detailList {
+  &__container {
+    padding-left: 1.6rem;
+    margin: 2rem;
+  }
+  &__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(49, 196, 141);
+    text-decoration: underline;
+  }
+}
