@@ -15,13 +15,13 @@ const Header = () => {
           <Link to="/details">Details</Link>
         </div>
         <div className="header__item">
-          <a href="/#">You</a>
+          <Link to="/user-detail">You</Link>
         </div>
         <div className="header__item">
-          <a href="/#"> About</a>
+          <Link to="/about-us">About us</Link>
         </div>
         <div className="header__item">
-          <a href="/#"> Contact</a>
+          <Link to="/contact-us">Contact Us</Link>
         </div>
       </nav>
     </div>
