@@ -11,6 +11,7 @@ import HomeSection from "./sections/homeSection";
 import ContactUsPage from "./pages/ContactUsPage/ContactUsPage";
 import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
 import UserDetailPage from "./pages/UserDetailPage/UserDetailPage";
+import StateDetailPage from "./pages/StateDetailPage/StateDetailPage";
 
 function App() {
   const data = useSelector((state) => state.data);
@@ -67,6 +68,16 @@ function App() {
               <>
                 <Header />
                 <ContactUsPage />
+              </>
+            }
+          ></Route>
+          <Route
+            exact
+            path="/contact-us"
+            element={
+              <>
+                <Header />
+                <StateDetailPage />
               </>
             }
           ></Route>
