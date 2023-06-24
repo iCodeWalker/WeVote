@@ -1,10 +1,13 @@
 import React from "react";
-import "./DetialPage.scss";
+import "./DetailPage.scss";
+import DetailList from "../../components/details/detailList";
+import Header from "../../components/header";
 
 const DetailPage = () => {
   return (
     <div>
-      <h1>Detail Page</h1>
+      <Header />
+      <DetailList />
     </div>
   );
 };

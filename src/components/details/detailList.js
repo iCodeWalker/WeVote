@@ -28,6 +28,7 @@ const DetailList = () => {
           );
         })}
       </div>
+      <h2 className="detailList__title">Indian Union Territories</h2>
     </div>
   );
 };

@@ -12,6 +12,7 @@ import ContactUsPage from "./pages/ContactUsPage/ContactUsPage";
 import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
 import UserDetailPage from "./pages/UserDetailPage/UserDetailPage";
 import StateDetailPage from "./pages/StateDetailPage/StateDetailPage";
+import DetailPage from "./pages/DetailPage/DetailPage";
 
 function App() {
   const data = useSelector((state) => state.data);
@@ -36,8 +37,7 @@ function App() {
             path="/details"
             element={
               <>
-                <Header />
-                <DetailList />
+                <DetailPage />
               </>
             }
           ></Route>
