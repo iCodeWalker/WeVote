@@ -200,11 +200,7 @@ export const initialState = {
     },
     {
       value: "DH",
-      label: "Dadra and Nagar Haveli",
-    },
-    {
-      value: "DD",
-      label: "Daman and Diu",
+      label: "Daman & Diu Dadra and Nagar Haveli",
     },
     {
       value: "DL",

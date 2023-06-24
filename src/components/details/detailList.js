@@ -24,11 +24,32 @@ const DetailList = () => {
               stateName={item.label}
               stateCode={item.value}
               stateImage={item.image}
+              isState={true}
             />
           );
         })}
       </div>
       <h2 className="detailList__title">Indian Union Territories</h2>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {initialState.unionTerritories.map((item, index) => {
+          return (
+            <DetailCard
+              key={index}
+              stateName={item.label}
+              stateCode={item.value}
+              stateImage={item.image}
+              isState={false}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

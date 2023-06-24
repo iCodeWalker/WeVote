@@ -71,9 +71,10 @@ function App() {
               </>
             }
           ></Route>
+
           <Route
             exact
-            path="/contact-us"
+            path="/state-detail-page/:stateName"
             element={
               <>
                 <Header />
