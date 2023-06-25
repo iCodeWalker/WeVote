@@ -74,7 +74,7 @@ function App() {
 
           <Route
             exact
-            path="/state-detail-page/:stateName"
+            path="/state-detail/:stateName"
             element={
               <>
                 <Header />

@@ -7,7 +7,7 @@ const DetailCard = ({ stateName, stateCode, stateImage, isState }) => {
   const navigate = useNavigate();
 
   const handleCardClick = () => {
-    navigate(`/state-detail-page/${stateCode}`, { replace: true });
+    navigate(`/state-detail/${stateCode}`, { replace: true });
   };
   return (
     <div className="detailcard__container" onClick={handleCardClick}>
