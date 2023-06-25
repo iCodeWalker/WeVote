@@ -1,0 +1,30 @@
+.districtcard {
+  &__container {
+    margin: 1.6rem;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    height: auto;
+    border: 2px solid rgba(49, 196, 142, 0.471);
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px rgba(49, 196, 142, 0.245);
+  }
+
+  &__image {
+    height: 12rem;
+    width: 15rem;
+    align-self: center;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  &__text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(49, 144, 109);
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+  }
+}
