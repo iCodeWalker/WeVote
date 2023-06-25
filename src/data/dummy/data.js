@@ -32,146 +32,174 @@ export const initialState = {
     {
       value: "AP",
       label: "Andhra Pradesh",
+      name: "andhra-pradesh",
       image: mapAndhraPradesh,
     },
     {
       value: "AR",
       label: "Arunachal Pradesh",
+      name: "arunachal-pradesh",
       image: mapArunachalPradesh,
     },
     {
       value: "AS",
       label: "Assam",
+      name: "assam",
       image: mapAssam,
     },
     {
       value: "BR",
       label: "Bihar",
+      name: "bihar",
       image: mapBihar,
     },
 
     {
       value: "CH",
       label: "Chhattisgarh",
+      name: "chhattisgarh",
       image: mapChhattisgarh,
     },
 
     {
       value: "GA",
       label: "Goa",
+      name: "goa",
       image: mapGoa,
     },
     {
       value: "GJ",
       label: "Gujarat",
+      name: "gujarat",
       image: mapGujrat,
     },
     {
       value: "HR",
       label: "Haryana",
+      name: "haryana",
       image: mapHaryana,
     },
     {
       value: "HP",
       label: "Himachal Pradesh",
+      name: "himachal-pradesh",
       image: mapHimanchalPradesh,
     },
 
     {
       value: "JH",
       label: "Jharkhand",
+      name: "jharkhand",
       image: mapJharkhand,
     },
     {
       value: "KA",
       label: "Karnataka",
+      name: "karnataka",
       image: mapKarnataka,
     },
     {
       value: "KL",
       label: "Kerala",
+      name: "kerela",
       image: mapKerela,
     },
 
     {
       value: "MP",
       label: "Madhya Pradesh",
+      name: "madhya-pradesh",
       image: mapMp,
     },
     {
       value: "MH",
       label: "Maharashtra",
+      name: "maharashtra",
       image: mapMaharashtra,
     },
     {
       value: "MN",
       label: "Manipur",
+      name: "manipur",
       image: mapManipur,
     },
     {
       value: "ML",
       label: "Meghalaya",
+      name: "meghalaya",
       image: mapMeghalaya,
     },
     {
       value: "MZ",
       label: "Mizoram",
+      name: "mizoram",
       image: mapMizoram,
     },
     {
       value: "NL",
       label: "Nagaland",
+      name: "nagaland",
       image: mapNagaland,
     },
     {
       value: "OR",
       label: "Odisha",
+      name: "odisha",
       image: mapOdisha,
     },
 
     {
       value: "PB",
       label: "Punjab",
+      name: "punjab",
       image: mapPunjab,
     },
     {
       value: "RJ",
       label: "Rajasthan",
+      name: "rajasthan",
       image: mapRajasthan,
     },
     {
       value: "SK",
       label: "Sikkim",
+      name: "sikkim",
       image: mapSikkim,
     },
     {
       value: "TN",
       label: "Tamil Nadu",
+      name: "tamil-nadu",
       image: mapTamilNadu,
     },
     {
       value: "TS",
       label: "Telangana",
+      name: "telangana",
       image: mapTelangana,
     },
     {
       value: "TR",
       label: "Tripura",
+      name: "tripura",
       image: mapTripura,
     },
     {
       value: "UK",
       label: "Uttarakhand",
+      name: "uttarakhand",
       image: mapUttarakhand,
     },
     {
       value: "UP",
       label: "Uttar Pradesh",
+      name: "uttar-pradesh",
       image: mapUttarPradesh,
     },
     {
       value: "WB",
       label: "West Bengal",
+      name: "west-bengal",
       image: mapWestBengal,
     },
   ],
@@ -180,35 +208,43 @@ export const initialState = {
     {
       value: "AN",
       label: "Andaman and Nicobar Islands",
+      name: "andaman-and-nicobar",
       image: "",
     },
     {
       value: "PY",
       label: "Puducherry",
+      name: "puducherry",
     },
     {
       value: "LD",
       label: "Lakshadweep",
+      name: "lakshadweep",
     },
     {
       value: "JK",
       label: "Jammu and Kashmir",
+      name: "jammu-and-kashmir",
     },
     {
       value: "LA",
       label: "Ladakh",
+      name: "ladakh",
     },
     {
       value: "DH",
       label: "Daman & Diu Dadra and Nagar Haveli",
+      name: "daman-and-diu-dadra-and-nagar-haveli",
     },
     {
       value: "DL",
       label: "Delhi",
+      name: "delhi",
     },
     {
       value: "CG",
       label: "Chandigarh",
+      name: "chandigarh",
     },
   ],
 };

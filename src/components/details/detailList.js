@@ -21,7 +21,8 @@ const DetailList = () => {
           return (
             <DetailCard
               key={index}
-              stateName={item.label}
+              stateName={item.name}
+              stateLabel={item.label}
               stateCode={item.value}
               stateImage={item.image}
               isState={true}
@@ -42,7 +43,8 @@ const DetailList = () => {
           return (
             <DetailCard
               key={index}
-              stateName={item.label}
+              stateName={item.name}
+              statelabel={item.label}
               stateCode={item.value}
               stateImage={item.image}
               isState={false}

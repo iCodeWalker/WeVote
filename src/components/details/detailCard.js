@@ -3,11 +3,17 @@ import { Route, Routes, useNavigate } from "react-router-dom";
 
 import "./detailCard.scss";
 
-const DetailCard = ({ stateName, stateCode, stateImage, isState }) => {
+const DetailCard = ({
+  stateLabel,
+  stateCode,
+  stateImage,
+  isState,
+  stateName,
+}) => {
   const navigate = useNavigate();
 
   const handleCardClick = () => {
-    navigate(`/state-detail/${stateCode}`, { replace: true });
+    navigate(`/state-detail/${stateName}`, { replace: true });
   };
   return (
     <div className="detailcard__container" onClick={handleCardClick}>
@@ -18,7 +24,7 @@ const DetailCard = ({ stateName, stateCode, stateImage, isState }) => {
       )}
 
       <div className="detailcard__title">
-        {stateName} ({stateCode})
+        {stateLabel} ({stateCode})
       </div>
     </div>
   );
