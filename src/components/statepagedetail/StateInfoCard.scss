@@ -9,7 +9,6 @@
     border: 1px solid rgba(49, 196, 142, 0.471);
     border-radius: 0.5rem;
     //   box-shadow: 5px 5px 10px rgba(49, 196, 142, 0.245);
-    cursor: pointer;
 
     &--detail {
       font-size: 0.9rem;
@@ -21,4 +20,8 @@
     align-self: center;
     margin-bottom: 1rem;
   }
+}
+
+.link {
+  color: #255a47;
 }
