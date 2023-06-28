@@ -44,7 +44,7 @@ const DetailList = () => {
             <DetailCard
               key={index}
               stateName={item.name}
-              statelabel={item.label}
+              stateLabel={item.label}
               stateCode={item.value}
               stateImage={item.image}
               isState={false}

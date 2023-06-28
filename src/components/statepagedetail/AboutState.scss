@@ -1,0 +1,18 @@
+.aboutstate {
+  width: 55rem;
+
+  &__title {
+    margin: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(49, 196, 141);
+  }
+
+  &__text {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #255a47;
+  }
+}

@@ -4,6 +4,7 @@ import "./StateDetailPage.scss";
 import { useParams } from "react-router-dom";
 import StateInfoCard from "../../components/statepagedetail/StateInfoCard";
 import DistrictCard from "../../components/statepagedetail/DistrictCard";
+import AboutState from "../../components/statepagedetail/AboutState";
 
 const districts = [
   {
@@ -171,7 +172,10 @@ const StateDetailPage = () => {
 
   return (
     <div className="statedetailpage">
-      <StateInfoCard />
+      <div style={{ display: "flex" }}>
+        <StateInfoCard />
+        <AboutState />
+      </div>
       <h1 className="statedetailpage__title">Districts &gt;&gt;</h1>
       <div
         style={{
