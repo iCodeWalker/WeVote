@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import "./StateDetailPage.scss";
 import { useParams } from "react-router-dom";
 import StateInfoCard from "../../components/statepagedetail/StateInfoCard";
 import DistrictCard from "../../components/statepagedetail/DistrictCard";
 import AboutState from "../../components/statepagedetail/AboutState";
+import { districtData } from "../../data/dummy/data";
 
 const districts = [
   {
@@ -166,15 +167,27 @@ const districts = [
 ];
 
 const StateDetailPage = () => {
-  const { stateID } = useParams();
+  const { stateName } = useParams();
+  const [data, setData] = useState([]);
 
-  console.log(stateID, "stateID");
+  useEffect(() => {
+    const data = districtData.filter((item, index) => {
+      if (item.stateName === stateName) {
+        return item;
+      }
+    });
+
+    console.log(data);
+    setData(data);
+  }, []);
+
+  console.log(stateName, "stateName");
 
   return (
     <div className="statedetailpage">
       <div style={{ display: "flex" }}>
         <StateInfoCard />
-        <AboutState />
+        <AboutState name={data[0]?.label} />
       </div>
       <h1 className="statedetailpage__title">Districts &gt;&gt;</h1>
       <div
@@ -185,8 +198,8 @@ const StateDetailPage = () => {
           flexWrap: "wrap",
         }}
       >
-        {districts.map((item, index) => {
-          return <DistrictCard districtName={item.name} />;
+        {data[0]?.districts?.map((item, index) => {
+          return <DistrictCard key={index} districtName={item} />;
         })}
       </div>
     </div>

@@ -2,10 +2,10 @@ import React from "react";
 
 import "./AboutState.scss";
 
-const AboutState = () => {
+const AboutState = ({ name }) => {
   return (
     <div className="aboutstate">
-      <h1 className="aboutstate__title">Madhya Pradesh</h1>
+      <h1 className="aboutstate__title">{name}</h1>
       <p className="aboutstate__text">
         Madhya Pradesh is a cluster of innumerable districts and varied
         topographic and climatic characteristics. Housing the magnificent
