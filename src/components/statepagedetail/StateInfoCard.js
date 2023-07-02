@@ -34,9 +34,9 @@ const StateInfoCard = ({
           </p>
         </div>
         <div className="stateinfocard__container--detail">
-          <p>Capital : {stateCapital}</p>
-          <p>Population : 12123123</p>
-          <p>Districts : {districtCount}</p>
+          <p className="stateinfocard__container--para-1"> {stateCapital}</p>
+          <p className="stateinfocard__container--para-2"> 12123123</p>
+          <p className="stateinfocard__container--para-3"> {districtCount}</p>
           <p>
             State Website :{" "}
             <Link to={stateWebLink} className="link" target="_blank">
