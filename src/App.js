@@ -25,7 +25,6 @@ function App() {
       <div>
         <Routes>
           <Route
-            exact
             path="/"
             element={
               <>
@@ -35,8 +34,7 @@ function App() {
             }
           ></Route>
           <Route
-            exact
-            path="/details"
+            path="/state-detail"
             element={
               <>
                 <DetailPage />
@@ -44,7 +42,6 @@ function App() {
             }
           ></Route>
           <Route
-            exact
             path="/user-detail"
             element={
               <>
@@ -54,7 +51,6 @@ function App() {
             }
           ></Route>
           <Route
-            exact
             path="/about-us"
             element={
               <>
@@ -64,7 +60,6 @@ function App() {
             }
           ></Route>
           <Route
-            exact
             path="/contact-us"
             element={
               <>
@@ -75,7 +70,6 @@ function App() {
           ></Route>
 
           <Route
-            exact
             path="/state-detail/:stateName"
             element={
               <>
