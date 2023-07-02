@@ -7,165 +7,6 @@ import DistrictCard from "../../components/statepagedetail/DistrictCard";
 import AboutState from "../../components/statepagedetail/AboutState";
 import { districtData } from "../../data/dummy/data";
 
-const districts = [
-  {
-    name: "Agar Malwa",
-  },
-  {
-    name: "Alirajpur",
-  },
-  {
-    name: "Anuppur",
-  },
-  {
-    name: "Ashok Nagar",
-  },
-  {
-    name: "Balaghat",
-  },
-  {
-    name: "Barwani",
-  },
-  {
-    name: "Betul",
-  },
-  {
-    name: "Bhind",
-  },
-  {
-    name: "Bhopal",
-  },
-  {
-    name: "Burhanpur",
-  },
-  {
-    name: "Chhatarpur",
-  },
-  {
-    name: "Chhindwara",
-  },
-  {
-    name: "Damoh",
-  },
-  {
-    name: "Datia",
-  },
-  {
-    name: "Dewas",
-  },
-  {
-    name: "Dhar",
-  },
-  {
-    name: "Dindori",
-  },
-  {
-    name: "Guna",
-  },
-  {
-    name: "Gwalior",
-  },
-  {
-    name: "Harda",
-  },
-  {
-    name: "Indore",
-  },
-  {
-    name: "Jabalpur",
-  },
-  {
-    name: "Jhabua",
-  },
-  {
-    name: "Katni",
-  },
-  {
-    name: "Khandwa",
-  },
-  {
-    name: "Khargone",
-  },
-  {
-    name: "Mandla",
-  },
-  {
-    name: "Mandsaur",
-  },
-  {
-    name: "Morena",
-  },
-  {
-    name: "Narmadapuram",
-  },
-  {
-    name: "Narsinghpur",
-  },
-  {
-    name: "Neemuch",
-  },
-  {
-    name: "Niwari",
-  },
-  {
-    name: "Panna",
-  },
-  {
-    name: "Raisen",
-  },
-  {
-    name: "Rajgarh",
-  },
-  {
-    name: "Ratlam",
-  },
-  {
-    name: "Rewa",
-  },
-  {
-    name: "Sagar",
-  },
-  {
-    name: "Satna",
-  },
-  {
-    name: "Sehore",
-  },
-  {
-    name: "Seoni",
-  },
-  {
-    name: "Shahdol",
-  },
-  {
-    name: "Shajapur",
-  },
-  {
-    name: "Sheopur",
-  },
-  {
-    name: "Shivpuri",
-  },
-  {
-    name: "Sidhi",
-  },
-  {
-    name: "Singrouli",
-  },
-  {
-    name: "Tikamgarh",
-  },
-  {
-    name: "Ujjain",
-  },
-  {
-    name: "Umaria",
-  },
-  {
-    name: "Vidisha",
-  },
-];
-
 const StateDetailPage = () => {
   const { stateName } = useParams();
   const [data, setData] = useState([]);
@@ -186,7 +27,12 @@ const StateDetailPage = () => {
   return (
     <div className="statedetailpage">
       <div style={{ display: "flex" }}>
-        <StateInfoCard stateLogo={data[0]?.stateLogo} />
+        <StateInfoCard
+          stateLogo={data[0]?.stateLogo}
+          stateWebLink={data[0]?.stateWebsiteLink}
+          stateCapital={data[0]?.stateCapital}
+          districtCount={data[0]?.districts?.length}
+        />
         <AboutState name={data[0]?.label} />
       </div>
       <h1 className="statedetailpage__title">Districts &gt;&gt;</h1>

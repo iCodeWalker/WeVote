@@ -343,6 +343,8 @@ export const districtData = [
     label: "Andhra Pradesh",
     stateName: "andhra-pradesh",
     stateLogo: andhraPradeshStateLogo,
+    stateWebsiteLink: "https://www.ap.gov.in/",
+    stateCapital: "Amaravati",
     districts: [
       "Anjaw",
       "Changlang",
@@ -376,6 +378,8 @@ export const districtData = [
     label: "Arunachal Pradesh",
     stateName: "arunachal-pradesh",
     stateLogo: arunachalPradeshStateLogo,
+    stateWebsiteLink: "https://arunachalpradesh.gov.in/",
+    stateCapital: "Itanagar",
     districts: [
       "Tawang",
       "West Kameng",
@@ -404,6 +408,8 @@ export const districtData = [
     label: "Assam",
     stateName: "assam",
     stateLogo: assamStateLogo,
+    stateWebsiteLink: "https://assam.gov.in/",
+    stateCapital: "Dispur",
     districts: [
       "Baksa",
       "Barpeta",
@@ -444,6 +450,8 @@ export const districtData = [
     label: "Bihar",
     stateName: "bihar",
     stateLogo: biharStateLogo,
+    stateWebsiteLink: "https://state.bihar.gov.in/main/CitizenHome.html",
+    stateCapital: "Patna",
     districts: [
       "Araria",
       "Arwal",
@@ -494,6 +502,8 @@ export const districtData = [
     label: "Chhattisgarh",
     stateName: "chhattisgarh",
     stateLogo: chhattisgarhStateLogo,
+    stateWebsiteLink: "https://www.cgstate.gov.in/en/web/guest/home",
+    stateCapital: "Raipur",
     districts: [
       "Balod",
       "Baloda Bazar",
@@ -555,12 +565,16 @@ export const districtData = [
     label: "Goa",
     stateName: "goa",
     stateLogo: goaStateLogo,
+    stateWebsiteLink: "https://www.goa.gov.in/",
+    stateCapital: "Panjim",
     districts: ["North Goa", "South Goa"],
   },
   {
     label: "Gujarat",
     stateName: "gujarat",
     stateLogo: gujaratStateLogo,
+    stateWebsiteLink: "https://gujaratindia.gov.in/",
+    stateCapital: "Gandhinagar",
     districts: [
       "Ahmedabad",
       "Amreli",
@@ -601,6 +615,8 @@ export const districtData = [
     label: "Haryana",
     stateName: "haryana",
     stateLogo: haryanaStateLogo,
+    stateWebsiteLink: "https://haryana.gov.in/",
+    stateCapital: "Chandigarh",
     districts: [
       "Ambala",
       "Bhiwani",
@@ -630,6 +646,8 @@ export const districtData = [
     label: "Himachal Pradesh",
     stateName: "himachal-pradesh",
     stateLogo: himanhcalPradeshStateLogo,
+    stateWebsiteLink: "https://himachal.gov.in/en-IN/",
+    stateCapital: "Shimla",
     districts: [
       "Bilaspur",
       "Chamba",
@@ -677,6 +695,8 @@ export const districtData = [
     label: "Jharkhand",
     stateName: "jharkhand",
     stateLogo: jharkhandStateLogo,
+    stateWebsiteLink: "https://www.jharkhand.gov.in/",
+    stateCapital: "Ranchi",
     districts: [
       "Bokaro",
       "Chatra",
@@ -708,6 +728,8 @@ export const districtData = [
     label: "Karnataka",
     stateName: "karnataka",
     stateLogo: karnatakaStateLogo,
+    stateWebsiteLink: "https://www.karnataka.gov.in/english",
+    stateCapital: "Banglore",
     districts: [
       "Bagalkot",
       "Ballari (Bellary)",
@@ -745,6 +767,8 @@ export const districtData = [
     label: "Kerela",
     stateName: "kerela",
     stateLogo: kerelaStateLogo,
+    stateWebsiteLink: "https://kerala.gov.in/",
+    stateCapital: "Thiruvananthapuram",
     districts: [
       "Alappuzha",
       "Ernakulam",
@@ -782,6 +806,8 @@ export const districtData = [
     label: "Madhya Pradesh",
     stateName: "madhya-pradesh",
     stateLogo: madhyaPradeshStateLogo,
+    stateWebsiteLink: "https://mp.gov.in/",
+    stateCapital: "Bhopal",
     districts: [
       "Agar Malwa",
       "Alirajpur",
@@ -840,6 +866,8 @@ export const districtData = [
     label: "Maharashtra",
     stateName: "maharashtra",
     stateLogo: maharashtraStateLogo,
+    stateWebsiteLink: "https://maharashtra.gov.in/1125/Home",
+    stateCapital: "Mumbai",
     districts: [
       "Ahmednagar",
       "Akola",
@@ -883,6 +911,8 @@ export const districtData = [
     label: "Manipur",
     stateName: "manipur",
     stateLogo: manipurStateLogo,
+    stateWebsiteLink: "https://manipur.gov.in/",
+    stateCapital: "Imphal",
     districts: [
       "Bishnupur",
       "Chandel",
@@ -906,6 +936,8 @@ export const districtData = [
     label: "Meghalaya",
     stateName: "meghalaya",
     stateLogo: meghalayaStateLogo,
+    stateWebsiteLink: "https://meghalaya.gov.in/",
+    stateCapital: "Shillong",
     districts: [
       "East Garo Hills",
       "East Jaintia Hills",
@@ -924,6 +956,8 @@ export const districtData = [
     label: "Mizoram",
     stateName: "mizoram",
     stateLogo: mizoramStateLogo,
+    stateWebsiteLink: "https://mizoram.gov.in/",
+    stateCapital: "Aizwal",
     districts: [
       "Aizawl",
       "Champhai",
@@ -939,6 +973,8 @@ export const districtData = [
     label: "Nagaland",
     stateName: "nagaland",
     stateLogo: nagalandStateLogo,
+    stateWebsiteLink: "https://www.nagaland.gov.in/",
+    stateCapital: "Kohima",
     districts: [
       "Dimapur",
       "Kiphire",
@@ -957,6 +993,8 @@ export const districtData = [
     label: "Odisha",
     stateName: "odisha",
     stateLogo: odishaStateLogo,
+    stateWebsiteLink: "https://odisha.gov.in/",
+    stateCapital: "Bhubaneshwar",
     districts: [
       "Angul",
       "Balangir",
@@ -999,6 +1037,8 @@ export const districtData = [
     label: "Punjab",
     stateName: "punjab",
     stateLogo: punjabStateLogo,
+    stateWebsiteLink: "https://punjab.gov.in/",
+    stateCapital: "Chandigarh",
     districts: [
       "Amritsar",
       "Barnala",
@@ -1028,6 +1068,8 @@ export const districtData = [
     label: "Rajasthan",
     stateName: "rajasthan",
     stateLogo: rajasthanStateLogo,
+    stateWebsiteLink: "https://www.rajasthan.gov.in/",
+    stateCapital: "Jaipur",
     districts: [
       "Ajmer",
       "Alwar",
@@ -1068,12 +1110,16 @@ export const districtData = [
     label: "Sikkim",
     stateName: "sikkim",
     stateLogo: sikkimStateLogo,
+    stateWebsiteLink: "https://sikkim.gov.in/",
+    stateCapital: "Gangtok",
     districts: ["East Sikkim", "North Sikkim", "South Sikkim", "West Sikkim"],
   },
   {
     label: "Tamil Nadu",
     stateName: "tamil-nadu",
     stateLogo: tamilNaduStateLogo,
+    stateWebsiteLink: "https://www.tn.gov.in/",
+    stateCapital: "Chennai",
     districts: [
       "Ariyalur",
       "Chennai",
@@ -1113,6 +1159,8 @@ export const districtData = [
     label: "Telangana",
     stateName: "telangana",
     stateLogo: telanganaStateLogo,
+    stateWebsiteLink: "https://www.telangana.gov.in/",
+    stateCapital: "Hyderabad",
     districts: [
       "Adilabad",
       "Bhadradri Kothagudem",
@@ -1151,6 +1199,8 @@ export const districtData = [
     label: "Tripura",
     stateName: "tripura",
     stateLogo: tripuraStateLogo,
+    stateWebsiteLink: "https://tripura.gov.in/",
+    stateCapital: "Agartala",
     districts: [
       "Dhalai",
       "Gomati",
@@ -1166,6 +1216,8 @@ export const districtData = [
     label: "Uttarakhand",
     stateName: "uttarakhand",
     stateLogo: uttarakhandStateLogo,
+    stateWebsiteLink: "https://uk.gov.in/",
+    stateCapital: "Dehradun",
     districts: [
       "Almora",
       "Bageshwar",
@@ -1186,6 +1238,8 @@ export const districtData = [
     label: "Uttar Pradesh",
     stateName: "uttar-pradesh",
     stateLogo: uttarPradeshStateLogo,
+    stateWebsiteLink: "https://up.gov.in/en",
+    stateCapital: "Lucknow",
     districts: [
       "Agra",
       "Aligarh",
@@ -1268,6 +1322,8 @@ export const districtData = [
     label: "West Bengal",
     stateName: "west-bengal",
     stateLogo: westBengalStateLogo,
+    stateWebsiteLink: "https://wb.gov.in/index.aspx",
+    stateCapital: "Kolkata",
     districts: [
       "Alipurduar",
       "Bankura",

@@ -1,10 +1,14 @@
 import React from "react";
 
-// import mpStateLogo from "../../assets/images/mp-state-logo.jpeg";
 import "./StateInfoCard.scss";
 import { Link } from "react-router-dom";
 
-const StateInfoCard = ({ stateLogo }) => {
+const StateInfoCard = ({
+  stateLogo,
+  stateWebLink,
+  stateCapital,
+  districtCount,
+}) => {
   return (
     <div className="stateinfocard">
       <div className="stateinfocard__container">
@@ -30,13 +34,13 @@ const StateInfoCard = ({ stateLogo }) => {
           </p>
         </div>
         <div className="stateinfocard__container--detail">
-          <p>Capital : Bhopal</p>
+          <p>Capital : {stateCapital}</p>
           <p>Population : 12123123</p>
-          <p>Districts : 50</p>
+          <p>Districts : {districtCount}</p>
           <p>
             State Website :{" "}
-            <Link to="https://mp.gov.in/" className="link">
-              https://mp.gov.in/
+            <Link to={stateWebLink} className="link" target="_blank">
+              Official Website
             </Link>
           </p>
         </div>
