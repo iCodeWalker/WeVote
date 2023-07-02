@@ -36,6 +36,27 @@ import biharStateLogo from "../../assets/images/bihar-state-logo.png";
 import chhattisgarhStateLogo from "../../assets/images/chhattisgarh-state-logo.png";
 import goaStateLogo from "../../assets/images/goa-state-logo.png";
 import gujaratStateLogo from "../../assets/images/gujarat-state-logo.png";
+import haryanaStateLogo from "../../assets/images/haryana-state-logo.png";
+import himanhcalPradeshStateLogo from "../../assets/images/himanchal-pradesh-state-logo.png";
+import jharkhandStateLogo from "../../assets/images/jharkhand-state-logo.png";
+import karnatakaStateLogo from "../../assets/images/karnataka-state-logo.png";
+import kerelaStateLogo from "../../assets/images/kerela-state-logo.jpeg";
+import madhyaPradeshStateLogo from "../../assets/images/madhya-pradesh-state-logo.jpeg";
+import maharashtraStateLogo from "../../assets/images/maharashtra-state-logo.png";
+import manipurStateLogo from "../../assets/images/manipur-state-logo.png";
+import meghalayaStateLogo from "../../assets/images/meghalaya-state-logo.png";
+import mizoramStateLogo from "../../assets/images/mizoram-state-logo.png";
+import nagalandStateLogo from "../../assets/images/nagaland-state-logo.png";
+import odishaStateLogo from "../../assets/images/odisha-state-logo.png";
+import punjabStateLogo from "../../assets/images/punjab-state-logo.gif";
+import rajasthanStateLogo from "../../assets/images/rajasthan-state-logo.png";
+import sikkimStateLogo from "../../assets/images/sikkim-state-logo.png";
+import tamilNaduStateLogo from "../../assets/images/tamil-nadu-state-logo.webp";
+import telanganaStateLogo from "../../assets/images/telangana-state-logo.png";
+import tripuraStateLogo from "../../assets/images/tripura-state-logo.png";
+import uttarakhandStateLogo from "../../assets/images/uttarakhand-state-logo.webp";
+import uttarPradeshStateLogo from "../../assets/images/uttar-pradesh-state-logo.png";
+import westBengalStateLogo from "../../assets/images/west-bengal-state-logo.png";
 
 export const initialState = {
   states: [
@@ -532,7 +553,7 @@ export const districtData = [
   },
   {
     label: "Goa",
-    stateName: "Goa",
+    stateName: "goa",
     stateLogo: goaStateLogo,
     districts: ["North Goa", "South Goa"],
   },
@@ -579,6 +600,7 @@ export const districtData = [
   {
     label: "Haryana",
     stateName: "haryana",
+    stateLogo: haryanaStateLogo,
     districts: [
       "Ambala",
       "Bhiwani",
@@ -607,6 +629,7 @@ export const districtData = [
   {
     label: "Himachal Pradesh",
     stateName: "himachal-pradesh",
+    stateLogo: himanhcalPradeshStateLogo,
     districts: [
       "Bilaspur",
       "Chamba",
@@ -653,6 +676,7 @@ export const districtData = [
   {
     label: "Jharkhand",
     stateName: "jharkhand",
+    stateLogo: jharkhandStateLogo,
     districts: [
       "Bokaro",
       "Chatra",
@@ -683,6 +707,7 @@ export const districtData = [
   {
     label: "Karnataka",
     stateName: "karnataka",
+    stateLogo: karnatakaStateLogo,
     districts: [
       "Bagalkot",
       "Ballari (Bellary)",
@@ -717,8 +742,9 @@ export const districtData = [
     ],
   },
   {
-    label: "Kerala",
-    stateName: "kerala",
+    label: "Kerela",
+    stateName: "kerela",
+    stateLogo: kerelaStateLogo,
     districts: [
       "Alappuzha",
       "Ernakulam",
@@ -755,6 +781,7 @@ export const districtData = [
   {
     label: "Madhya Pradesh",
     stateName: "madhya-pradesh",
+    stateLogo: madhyaPradeshStateLogo,
     districts: [
       "Agar Malwa",
       "Alirajpur",
@@ -812,6 +839,7 @@ export const districtData = [
   {
     label: "Maharashtra",
     stateName: "maharashtra",
+    stateLogo: maharashtraStateLogo,
     districts: [
       "Ahmednagar",
       "Akola",
@@ -854,6 +882,7 @@ export const districtData = [
   {
     label: "Manipur",
     stateName: "manipur",
+    stateLogo: manipurStateLogo,
     districts: [
       "Bishnupur",
       "Chandel",
@@ -876,6 +905,7 @@ export const districtData = [
   {
     label: "Meghalaya",
     stateName: "meghalaya",
+    stateLogo: meghalayaStateLogo,
     districts: [
       "East Garo Hills",
       "East Jaintia Hills",
@@ -893,6 +923,7 @@ export const districtData = [
   {
     label: "Mizoram",
     stateName: "mizoram",
+    stateLogo: mizoramStateLogo,
     districts: [
       "Aizawl",
       "Champhai",
@@ -907,6 +938,7 @@ export const districtData = [
   {
     label: "Nagaland",
     stateName: "nagaland",
+    stateLogo: nagalandStateLogo,
     districts: [
       "Dimapur",
       "Kiphire",
@@ -924,6 +956,7 @@ export const districtData = [
   {
     label: "Odisha",
     stateName: "odisha",
+    stateLogo: odishaStateLogo,
     districts: [
       "Angul",
       "Balangir",
@@ -965,6 +998,7 @@ export const districtData = [
   {
     label: "Punjab",
     stateName: "punjab",
+    stateLogo: punjabStateLogo,
     districts: [
       "Amritsar",
       "Barnala",
@@ -993,6 +1027,7 @@ export const districtData = [
   {
     label: "Rajasthan",
     stateName: "rajasthan",
+    stateLogo: rajasthanStateLogo,
     districts: [
       "Ajmer",
       "Alwar",
@@ -1032,11 +1067,13 @@ export const districtData = [
   {
     label: "Sikkim",
     stateName: "sikkim",
+    stateLogo: sikkimStateLogo,
     districts: ["East Sikkim", "North Sikkim", "South Sikkim", "West Sikkim"],
   },
   {
     label: "Tamil Nadu",
     stateName: "tamil-nadu",
+    stateLogo: tamilNaduStateLogo,
     districts: [
       "Ariyalur",
       "Chennai",
@@ -1075,6 +1112,7 @@ export const districtData = [
   {
     label: "Telangana",
     stateName: "telangana",
+    stateLogo: telanganaStateLogo,
     districts: [
       "Adilabad",
       "Bhadradri Kothagudem",
@@ -1112,6 +1150,7 @@ export const districtData = [
   {
     label: "Tripura",
     stateName: "tripura",
+    stateLogo: tripuraStateLogo,
     districts: [
       "Dhalai",
       "Gomati",
@@ -1126,6 +1165,7 @@ export const districtData = [
   {
     label: "Uttarakhand",
     stateName: "uttarakhand",
+    stateLogo: uttarakhandStateLogo,
     districts: [
       "Almora",
       "Bageshwar",
@@ -1145,6 +1185,7 @@ export const districtData = [
   {
     label: "Uttar Pradesh",
     stateName: "uttar-pradesh",
+    stateLogo: uttarPradeshStateLogo,
     districts: [
       "Agra",
       "Aligarh",
@@ -1226,6 +1267,7 @@ export const districtData = [
   {
     label: "West Bengal",
     stateName: "west-bengal",
+    stateLogo: westBengalStateLogo,
     districts: [
       "Alipurduar",
       "Bankura",

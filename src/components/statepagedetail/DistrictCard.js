@@ -1,6 +1,6 @@
 import React from "react";
 
-import mpStateLogo from "../../assets/images/mp-state-logo.jpeg";
+// import mpStateLogo from "../../assets/images/mp-state-logo.jpeg";
 import jabalpurImage from "../../assets/images/jabalpur.jpeg";
 import "./DistrictCard.scss";
 
