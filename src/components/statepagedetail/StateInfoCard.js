@@ -4,13 +4,13 @@ import mpStateLogo from "../../assets/images/mp-state-logo.jpeg";
 import "./StateInfoCard.scss";
 import { Link } from "react-router-dom";
 
-const StateInfoCard = () => {
+const StateInfoCard = ({ stateLogo }) => {
   return (
     <div className="stateinfocard">
       <div className="stateinfocard__container">
         <div className="stateinfocard__image-container">
           <img
-            src={mpStateLogo}
+            src={stateLogo}
             className="stateinfocard--image"
             alt="state__mp"
             height="200px"

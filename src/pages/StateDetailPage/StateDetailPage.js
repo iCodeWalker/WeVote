@@ -186,7 +186,7 @@ const StateDetailPage = () => {
   return (
     <div className="statedetailpage">
       <div style={{ display: "flex" }}>
-        <StateInfoCard />
+        <StateInfoCard stateLogo={data[0]?.stateLogo} />
         <AboutState name={data[0]?.label} />
       </div>
       <h1 className="statedetailpage__title">Districts &gt;&gt;</h1>

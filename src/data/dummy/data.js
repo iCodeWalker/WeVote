@@ -27,6 +27,16 @@ import mapUttarakhand from "../../assets/images/map-uttarakhand.jpg";
 import mapUttarPradesh from "../../assets/images/map-uttar-pradesh.jpg";
 import mapWestBengal from "../../assets/images/map-west-bengal.jpg";
 
+// -- state logo ---
+
+import andhraPradeshStateLogo from "../../assets/images/arunachal-pradesh-state-logo.png";
+import arunachalPradeshStateLogo from "../../assets/images/arunachal-pradesh-state-logo.png";
+import assamStateLogo from "../../assets/images/assam-state-logo.png";
+import biharStateLogo from "../../assets/images/bihar-state-logo.png";
+import chhattisgarhStateLogo from "../../assets/images/chhattisgarh-state-logo.png";
+import goaStateLogo from "../../assets/images/goa-state-logo.png";
+import gujaratStateLogo from "../../assets/images/gujarat-state-logo.png";
+
 export const initialState = {
   states: [
     {
@@ -311,6 +321,7 @@ export const districtData = [
   {
     label: "Andhra Pradesh",
     stateName: "andhra-pradesh",
+    stateLogo: andhraPradeshStateLogo,
     districts: [
       "Anjaw",
       "Changlang",
@@ -343,6 +354,7 @@ export const districtData = [
   {
     label: "Arunachal Pradesh",
     stateName: "arunachal-pradesh",
+    stateLogo: arunachalPradeshStateLogo,
     districts: [
       "Tawang",
       "West Kameng",
@@ -370,6 +382,7 @@ export const districtData = [
   {
     label: "Assam",
     stateName: "assam",
+    stateLogo: assamStateLogo,
     districts: [
       "Baksa",
       "Barpeta",
@@ -409,6 +422,7 @@ export const districtData = [
   {
     label: "Bihar",
     stateName: "bihar",
+    stateLogo: biharStateLogo,
     districts: [
       "Araria",
       "Arwal",
@@ -458,6 +472,7 @@ export const districtData = [
   {
     label: "Chhattisgarh",
     stateName: "chhattisgarh",
+    stateLogo: chhattisgarhStateLogo,
     districts: [
       "Balod",
       "Baloda Bazar",
@@ -518,11 +533,13 @@ export const districtData = [
   {
     label: "Goa",
     stateName: "Goa",
+    stateLogo: goaStateLogo,
     districts: ["North Goa", "South Goa"],
   },
   {
     label: "Gujarat",
     stateName: "gujarat",
+    stateLogo: gujaratStateLogo,
     districts: [
       "Ahmedabad",
       "Amreli",
@@ -597,7 +614,7 @@ export const districtData = [
       "Kangra",
       "Kinnaur",
       "Kullu",
-      "Lahaul &amp; Spiti",
+      "Lahaul Spiti",
       "Mandi",
       "Shimla",
       "Sirmaur (Sirmour)",
