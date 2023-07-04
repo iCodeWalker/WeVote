@@ -14,6 +14,7 @@ import UserDetailPage from "./pages/UserDetailPage/UserDetailPage";
 import StateDetailPage from "./pages/StateDetailPage/StateDetailPage";
 import DetailPage from "./pages/DetailPage/DetailPage";
 import ScrollToTop from "./utils/ScrollToTop";
+import DistrictDetailPage from "./pages/DistrictDetailPage/DistrictDetailPage";
 
 function App() {
   const data = useSelector((state) => state.data);
@@ -25,6 +26,7 @@ function App() {
       <div>
         <Routes>
           <Route
+            exact
             path="/"
             element={
               <>
@@ -34,6 +36,7 @@ function App() {
             }
           ></Route>
           <Route
+            exact
             path="/state-detail"
             element={
               <>
@@ -42,6 +45,7 @@ function App() {
             }
           ></Route>
           <Route
+            exact
             path="/user-detail"
             element={
               <>
@@ -51,6 +55,7 @@ function App() {
             }
           ></Route>
           <Route
+            exact
             path="/about-us"
             element={
               <>
@@ -60,6 +65,7 @@ function App() {
             }
           ></Route>
           <Route
+            exact
             path="/contact-us"
             element={
               <>
@@ -70,11 +76,22 @@ function App() {
           ></Route>
 
           <Route
+            exact
             path="/state-detail/:stateName"
             element={
               <>
                 <Header />
                 <StateDetailPage />
+              </>
+            }
+          ></Route>
+          <Route
+            exact
+            path="/district/:districtName"
+            element={
+              <>
+                <Header />
+                <DistrictDetailPage />
               </>
             }
           ></Route>
