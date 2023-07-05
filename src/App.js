@@ -15,6 +15,7 @@ import StateDetailPage from "./pages/StateDetailPage/StateDetailPage";
 import DetailPage from "./pages/DetailPage/DetailPage";
 import ScrollToTop from "./utils/ScrollToTop";
 import DistrictDetailPage from "./pages/DistrictDetailPage/DistrictDetailPage";
+import Footer from "./components/footer";
 
 function App() {
   const data = useSelector((state) => state.data);
@@ -32,6 +33,7 @@ function App() {
               <>
                 <Header />
                 <HomePage />
+                <Footer />
               </>
             }
           ></Route>
@@ -41,6 +43,7 @@ function App() {
             element={
               <>
                 <DetailPage />
+                <Footer />
               </>
             }
           ></Route>
@@ -51,6 +54,7 @@ function App() {
               <>
                 <Header />
                 <UserDetailPage />
+                <Footer />
               </>
             }
           ></Route>
@@ -61,6 +65,7 @@ function App() {
               <>
                 <Header />
                 <AboutUsPage />
+                <Footer />
               </>
             }
           ></Route>
@@ -71,6 +76,7 @@ function App() {
               <>
                 <Header />
                 <ContactUsPage />
+                <Footer />
               </>
             }
           ></Route>
@@ -82,6 +88,7 @@ function App() {
               <>
                 <Header />
                 <StateDetailPage />
+                <Footer />
               </>
             }
           ></Route>
@@ -92,6 +99,7 @@ function App() {
               <>
                 <Header />
                 <DistrictDetailPage />
+                <Footer />
               </>
             }
           ></Route>
