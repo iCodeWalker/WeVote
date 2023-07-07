@@ -1,0 +1,41 @@
+.about-us {
+  padding: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+      to top,
+      rgba(10, 10, 10, 0.146),
+      rgba(10, 10, 10, 0.1)
+    ),
+    url("../../assets//images/home-section-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.5;
+
+  &__container {
+    width: 70%;
+    padding: 2rem;
+    z-index: 100;
+  }
+
+  &__heading {
+    color: rgb(49, 196, 141);
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  &__para {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: white;
+
+    &--head {
+      font-weight: 600;
+    }
+  }
+}
