@@ -1,0 +1,36 @@
+.contact-us-intro {
+  padding: 1.6rem;
+  color: white;
+  // font: bold 6.5em/2em monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to top, #255a47a1, #255a47),
+    url("../../assets//images/home-section-bg.jpeg") no-repeat top center;
+
+  &__container {
+    width: 70%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    z-index: 100;
+  }
+
+  &__heading {
+    color: rgb(49, 196, 141);
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  &__para {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: white;
+
+    &--head {
+      font-weight: 600;
+    }
+  }
+}

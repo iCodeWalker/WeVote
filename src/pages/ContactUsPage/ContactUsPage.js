@@ -1,11 +1,13 @@
 import React from "react";
 
-import "./ContactUsPage.scss";
+import ContactUsIntro from "../../components/contactuspage/contactUsIntro";
+import ContactUsSection from "../../components/contactuspage/contactUsSection";
 
 const ContactUsPage = () => {
   return (
     <div>
-      <h1>Contact Us Page</h1>
+      <ContactUsIntro />
+      <ContactUsSection />
     </div>
   );
 };
