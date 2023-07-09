@@ -19,28 +19,50 @@
   }
 
   &__heading {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 600;
   }
 
   &__para {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.1;
     color: rgba(13, 10, 10, 0.702);
     margin-top: 2em;
   }
 
+  &__address-section {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
   &__para-2 {
     font-size: 0.9rem;
     font-weight: 400;
-
+    line-height: 0.8;
     color: rgba(49, 48, 48, 0.702);
   }
 
-  &__list-item {
+  &__inputField {
     font-size: 1rem;
     font-weight: 400;
-    line-height: 2;
+    padding: 1rem;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid rgb(195, 189, 189);
+    margin: 1rem 2rem 1rem 0;
+  }
+
+  &__textArea {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid rgb(195, 189, 189);
+    margin-top: 1rem;
+  }
+  textarea:focus,
+  input:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(49, 196, 141);
   }
 }
