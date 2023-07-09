@@ -3,6 +3,7 @@ import React from "react";
 import "./contactUsSection.scss";
 
 const ContactUsSection = () => {
+  const handleClick = () => {};
   return (
     <div className="contact-us-section">
       <div className="contact-us-section__container-1">
@@ -56,6 +57,10 @@ const ContactUsSection = () => {
           placeholder="Please Enter Your Message"
           className="contact-us-section__textArea"
         />
+
+        <button className="contact-us-section__btn" onClick={handleClick}>
+          Send
+        </button>
       </div>
     </div>
   );
