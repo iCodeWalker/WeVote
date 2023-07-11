@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <div className="homepage__container">
       <HomeSection />
-      <CheckBoxWithSelectAll />
+      {/* <CheckBoxWithSelectAll /> */}
     </div>
   );
 };

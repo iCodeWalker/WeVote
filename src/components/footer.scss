@@ -1,8 +1,27 @@
 .footer {
   &__container {
     height: 15rem;
-    width: 100%;
     border-top: 2px solid rgba(49, 196, 141);
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__logo {
+    height: 2rem;
+    width: 8rem;
+    transition: all 0.3s ease-in-out;
+    margin-left: 3rem;
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+    transform: translateY(-3rem);
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   &__copyright {
@@ -10,6 +29,46 @@
     font-size: 1rem;
     font-weight: 600;
     color: rgba(49, 196, 141);
-    margin: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__section {
+  }
+
+  &__first-section {
+  }
+
+  &__second-section {
+  }
+
+  &__third-section {
+  }
+
+  &__fourth-section {
+  }
+
+  &__fifth-section {
+  }
+
+  &__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #255a47;
+  }
+
+  &__link-container {
+    margin-left: 10px;
+  }
+
+  &__link {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(49, 196, 141);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }

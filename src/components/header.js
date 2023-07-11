@@ -9,7 +9,7 @@ const Header = () => {
       <img src={logo} alt="logo" className="header__logo" />
       <nav className="header__wrapper">
         <div className="header__item">
-          <a href="/"> Home</a>
+          <Link to="/"> Home</Link>
         </div>
         <div className="header__item">
           <Link to="/state-detail">Details</Link>
