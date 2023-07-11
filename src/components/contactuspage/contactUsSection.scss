@@ -64,7 +64,7 @@
   &__btn {
     padding: 0.7rem 1.2rem;
     font-size: 1.2rem;
-    margin: 1rem 1rem 1rem 0;
+    margin: 1.5rem 1rem 1rem 0;
     border: 1px solid rgba(49, 196, 141);
     border-radius: 0.5rem;
     font-weight: 700;
@@ -75,11 +75,11 @@
 
     &:hover {
       transform: translateY(-2px);
-      box-shadow: -1px 2px 5px rgba(30, 29, 29, 0.539);
+      box-shadow: -1px 3px 10px rgba(30, 29, 29, 0.539);
     }
 
     &:active {
-      transform: translateY(0px);
+      transform: translateY(1px);
     }
   }
 

@@ -4,4 +4,12 @@
     width: 100%;
     border-top: 2px solid rgba(49, 196, 141);
   }
+
+  &__copyright {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(49, 196, 141);
+    margin: 2rem;
+  }
 }
