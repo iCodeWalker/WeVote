@@ -1,11 +1,12 @@
 import React from "react";
 
 import "./UserDetailPage.scss";
+import UserPageIntro from "../../components/userpage/userPageIntro";
 
 const UserDetailPage = () => {
   return (
     <div>
-      <h1>User Detail Page</h1>
+      <UserPageIntro />
     </div>
   );
 };
