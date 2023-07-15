@@ -1,0 +1,51 @@
+.home-page-detail {
+  padding: 1.6rem;
+  color: white;
+  // font: bold 6.5em/2em monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to top, #255a47a1, #255a47),
+    url("../../assets//images/home-section-bg.jpeg") no-repeat top center;
+
+  &__container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    z-index: 100;
+    flex: 1;
+  }
+
+  &__image-container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    z-index: 100;
+    flex: 1;
+  }
+
+  &__image {
+    height: 25rem;
+    width: 35rem;
+    opacity: 0.9;
+    border: 2rem solid rgba(0, 0, 0, 0.414);
+  }
+
+  &__heading {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-left: 0;
+  }
+
+  &__para {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: white;
+
+    &--head {
+      font-weight: 600;
+    }
+  }
+}

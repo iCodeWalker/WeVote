@@ -33,7 +33,6 @@ function App() {
               <>
                 <Header />
                 <HomePage />
-                <Footer />
               </>
             }
           ></Route>
