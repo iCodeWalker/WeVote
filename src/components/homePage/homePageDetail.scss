@@ -1,5 +1,5 @@
 .home-page-detail {
-  padding: 1.6rem;
+  padding: 2rem;
   color: white;
   // font: bold 6.5em/2em monospace;
   display: flex;
@@ -14,6 +14,7 @@
     padding-bottom: 6rem;
     z-index: 100;
     flex: 1;
+    padding: 2rem;
   }
 
   &__image-container {
@@ -21,6 +22,7 @@
     padding-bottom: 6rem;
     z-index: 100;
     flex: 1;
+    padding: 2rem;
   }
 
   &__image {
@@ -28,6 +30,27 @@
     width: 35rem;
     opacity: 0.9;
     border: 2rem solid rgba(0, 0, 0, 0.414);
+  }
+
+  &__btn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 0.2rem;
+    box-shadow: -2px 2px 5px rgb(33, 31, 31);
+    background-color: rgb(49, 196, 141);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+
+    &:active {
+      transform: translateY(0px);
+    }
   }
 
   &__heading {

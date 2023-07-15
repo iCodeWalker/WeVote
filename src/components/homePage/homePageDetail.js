@@ -24,6 +24,7 @@ const HomePageDetail = () => {
             </p>
           </div>
         </div>
+        <button className="home-page-detail__btn">Volunteer</button>
       </div>
       <div className="home-page-detail__image-container">
         <img
