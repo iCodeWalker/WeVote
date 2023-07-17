@@ -47,4 +47,30 @@
       transform: scale(1.2);
     }
   }
+
+  &__item-active-1,
+  &__item-active-2,
+  &__item-active-3,
+  &__item-active-4,
+  &__item-active-5 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 3px solid red;
+    a,
+    a:link,
+    a:active a:focus {
+      text-decoration: none;
+      color: rgb(49, 196, 141);
+
+      &:hover {
+        color: #255a47;
+      }
+    }
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 }
