@@ -16,6 +16,7 @@ import DetailPage from "./pages/DetailPage/DetailPage";
 import ScrollToTop from "./utils/ScrollToTop";
 import DistrictDetailPage from "./pages/DistrictDetailPage/DistrictDetailPage";
 import Footer from "./components/footer";
+import PartnerWithUsPage from "./pages/PartnerWithUsPage/PartnerWithUsPage";
 
 function App() {
   const data = useSelector((state) => state.data);
@@ -98,6 +99,17 @@ function App() {
               <>
                 <Header />
                 <DistrictDetailPage />
+                <Footer />
+              </>
+            }
+          ></Route>
+          <Route
+            exact
+            path="/partner-with-us"
+            element={
+              <>
+                <Header />
+                <PartnerWithUsPage />
                 <Footer />
               </>
             }

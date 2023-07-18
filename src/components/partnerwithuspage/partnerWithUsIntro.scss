@@ -1,0 +1,65 @@
+.partner-with-us-intro {
+  position: relative;
+  padding: 1.6rem;
+  color: white;
+  // font: bold 6.5em/2em monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to top, #255a47a1, #255a47),
+    url("../../assets//images/home-section-bg.jpeg") no-repeat top center;
+
+  &__container {
+    width: 95%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    z-index: 100;
+  }
+
+  &__heading {
+    color: rgb(49, 196, 141);
+    font-size: 3rem;
+    font-weight: 700;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  &__para {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: white;
+
+    &--head {
+      font-weight: 600;
+    }
+  }
+  &__btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__btn {
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #db6531;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    box-shadow: -2px 2px 5px rgba(31, 31, 31, 0.869);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(1px);
+    }
+  }
+}
