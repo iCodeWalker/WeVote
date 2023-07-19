@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./missionSection.scss";
+import { Link } from "react-router-dom";
 const MissionSection = () => {
   return (
     <div className="mission-section">
@@ -45,6 +46,9 @@ const MissionSection = () => {
         <p className="mission-section__para">
           We are non-profit, non-partisan, independent, non-governmental.
         </p>
+        <Link to="/partner-with-us" className="mission-section__btn">
+          Partner With Us
+        </Link>
       </div>
     </div>
   );
