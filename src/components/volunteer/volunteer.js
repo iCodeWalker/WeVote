@@ -21,6 +21,8 @@ const Volunteer = () => {
             <input className="form__text-field" placeholder="Phone Number" />
             <span class="border"></span>
           </div>
+
+          <button className="volunteer__btn">Send</button>
         </form>
       </div>
       <div className="volunteer__text-container">

@@ -43,6 +43,28 @@
       color: rgba(255, 255, 255, 0.675);
     }
   }
+
+  &__btn {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 0.2rem;
+    box-shadow: -2px 2px 5px rgb(33, 31, 31);
+    background-color: #007680;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 2rem 0.5rem;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+
+    &:active {
+      transform: translateY(0px);
+    }
+  }
 }
 
 .form {

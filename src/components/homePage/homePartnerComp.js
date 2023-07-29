@@ -1,9 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./homePartnerComp.scss";
 import inkingImage from "../../assets/images/wevote-inking.jpeg";
 
 const HomePartnerComp = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/partner-with-us");
+  };
   return (
     <div className="home-partner__container">
       <div className="home-partner__image-container">
@@ -16,7 +22,9 @@ const HomePartnerComp = () => {
           by volunteering or partnering to start a voter education program in
           your community/organization.
         </p>
-        <button className="home-partner__btn">Take Action NOW</button>
+        <button className="home-partner__btn" onClick={handleClick}>
+          Take Action NOW
+        </button>
       </div>
     </div>
   );
