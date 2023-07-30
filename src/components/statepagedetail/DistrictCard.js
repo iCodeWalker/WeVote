@@ -5,11 +5,13 @@ import jabalpurImage from "../../assets/images/jabalpur.jpeg";
 import "./DistrictCard.scss";
 import { useNavigate } from "react-router-dom";
 
-const DistrictCard = ({ districtName }) => {
+const DistrictCard = ({ districtName, stateName }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/district/${districtName}`, { replace: true });
+    navigate(`/state-detail/${stateName}/district/${districtName}`, {
+      replace: true,
+    });
   };
 
   return (

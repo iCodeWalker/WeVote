@@ -45,7 +45,13 @@ const StateDetailPage = () => {
         }}
       >
         {data[0]?.districts?.map((item, index) => {
-          return <DistrictCard key={index} districtName={item} />;
+          return (
+            <DistrictCard
+              key={index}
+              districtName={item}
+              stateName={stateName}
+            />
+          );
         })}
       </div>
     </div>

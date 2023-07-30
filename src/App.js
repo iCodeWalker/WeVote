@@ -94,7 +94,7 @@ function App() {
           ></Route>
           <Route
             exact
-            path="/district/:districtName"
+            path="/state-detail/:stateName/district/:districtName"
             element={
               <>
                 <Header />
