@@ -9,9 +9,7 @@ const DistrictCard = ({ districtName, stateName }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/state-detail/${stateName}/district/${districtName}`, {
-      replace: true,
-    });
+    navigate(`/state-detail/${stateName}/district/${districtName}`);
   };
 
   return (

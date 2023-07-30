@@ -13,7 +13,7 @@ const DetailCard = ({
   const navigate = useNavigate();
 
   const handleCardClick = () => {
-    navigate(`/state-detail/${stateName}`, { replace: true });
+    navigate(`/state-detail/${stateName}`);
   };
   return (
     <div className="detailcard__container" onClick={handleCardClick}>
