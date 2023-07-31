@@ -10,6 +10,14 @@ const Header = () => {
   const handleClick = (event) => {
     setIsActive((current) => !current);
     setId(event.target.id);
+
+    const element = document.getElementById(`${event.target.id}`);
+    console.log(`header__item-active-${event.target.id}`);
+    if (element?.classList?.contains("header__item-active")) {
+      element.classList?.remove("header__item-active");
+    } else {
+      element?.classList?.add("header__item-active");
+    }
   };
   return (
     <div className="header__container">
@@ -20,17 +28,25 @@ const Header = () => {
             Home
           </Link>
         </div>
-        <div className="header__item" onClick={handleClick} id="2">
-          <Link to="/state-detail">Details</Link>
+        <div className="header__item" onClick={handleClick}>
+          <Link to="/state-detail" id="2">
+            Details
+          </Link>
         </div>
-        <div className="header__item" onClick={handleClick} id="3">
-          <Link to="/user-detail">You</Link>
+        <div className="header__item" onClick={handleClick}>
+          <Link to="/user-detail" id="3">
+            You
+          </Link>
         </div>
-        <div className="header__item" onClick={handleClick} id="4">
-          <Link to="/about-us">About us</Link>
+        <div className="header__item" onClick={handleClick}>
+          <Link to="/about-us" id="4">
+            About us
+          </Link>
         </div>
-        <div className="header__item" onClick={handleClick} id="5">
-          <Link to="/contact-us">Contact Us</Link>
+        <div className="header__item" onClick={handleClick}>
+          <Link to="/contact-us" id="5">
+            Contact Us
+          </Link>
         </div>
       </nav>
     </div>
