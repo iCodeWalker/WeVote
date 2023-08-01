@@ -1,3 +1,22 @@
 .districtdetailpage {
   padding: 20px;
+
+  &__container {
+    height: 30rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.577);
+
+    &-image {
+      height: 12rem;
+      align-self: center;
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+
+    &-text {
+      text-align: center;
+    }
+  }
 }
