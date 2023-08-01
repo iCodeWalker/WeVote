@@ -9,7 +9,7 @@ const DistrictDetailPage = () => {
   const { districtName } = useParams();
   return (
     <div className="districtdetailpage">
-      <h1>District Detail Page</h1>
+      <h1 className="districtdetailpage__title">District Detail Page</h1>
 
       <div className="districtdetailpage__container">
         <div className="districtdetailpage__container-image">

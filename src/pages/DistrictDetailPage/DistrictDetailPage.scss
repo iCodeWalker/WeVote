@@ -1,6 +1,13 @@
 .districtdetailpage {
   padding: 20px;
 
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(49, 196, 141);
+    margin-bottom: 2rem;
+  }
+
   &__container {
     height: 30rem;
     width: 20rem;
