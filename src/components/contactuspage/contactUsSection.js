@@ -32,22 +32,27 @@ const ContactUsSection = () => {
 
       <div className="contact-us-section__container-2">
         <h2 className="contact-us-section__heading">Write Us</h2>
-        <input
-          placeholder="Your Name"
-          className="contact-us-section__inputField"
-        />
-        <input
-          placeholder="Your Email"
-          className="contact-us-section__inputField"
-        />
-        <input
-          placeholder="Phone Number"
-          className="contact-us-section__inputField"
-        />
-        <input
-          placeholder="Subject"
-          className="contact-us-section__inputField"
-        />
+        <div style={{ display: "flex" }}>
+          <input
+            placeholder="Your Name"
+            className="contact-us-section__inputField"
+          />
+          <input
+            placeholder="Your Email"
+            className="contact-us-section__inputField"
+          />
+        </div>
+
+        <div style={{ display: "flex" }}>
+          <input
+            placeholder="Phone Number"
+            className="contact-us-section__inputField"
+          />
+          <input
+            placeholder="Subject"
+            className="contact-us-section__inputField"
+          />
+        </div>
 
         <textarea
           id="w3review"
